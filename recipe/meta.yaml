@@ -12,7 +12,7 @@ source:
   sha256: 899155ed9e50ac128167ac9e4f91ecd38493a32fdeca8213f93e9df135c9e0c7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - sumy = sumy.__main__:main
