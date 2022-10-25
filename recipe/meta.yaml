@@ -1,5 +1,5 @@
 {% set name = "sumy" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 {% set py_ver = PY_VER %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sumy-{{ version }}.tar.gz
-  sha256: 77571eb1167fdde4e42bd6aa2b05d961e6667c3a1f87c117720cdc9886ab3971
+  sha256: 1c52dcfda3072d87c7ae85a100c53a93f5b1f758466a1a1369f86aff1bb0129d
 
 build:
   number: 0
