@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   py_ver: PY_VER
-  version: 0.13.0
+  version: "0.14.0"
 
 package:
   name: sumy
   version: ${{ version }}
 
 source:
-- url: https://files.pythonhosted.org/packages/source/s/sumy/sumy-${{ version }}.tar.gz
-  sha256: 5bdf1af5286801a74e9b5fd3aa58c3ab2316318a42de3c12f38f9737bee6cfc2
+  - url: https://files.pythonhosted.org/packages/source/s/sumy/sumy-${{ version }}.tar.gz
+    sha256: 7bcd5267dda475a80aa85699afd04ed3c2f960e76e91de1b66fedda72d8e35ca
 
 
 build:
